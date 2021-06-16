@@ -1,0 +1,28 @@
+.grid-container {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+}
+
+.grid-container > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  min-height: 180px;
+  min-width: 180px;
+  height: 22vw;
+  width: 22vw;
+  max-height: 250px;
+  max-width: 250px;
+  background-color: #b7151b;
+  color: white;
+  margin: 15%;
+  box-shadow: 3px 3px 10px gray;
+  transition-duration: 200ms;
+}
+
+.grid-container > *:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}

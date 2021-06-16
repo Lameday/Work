@@ -1,0 +1,13 @@
+.header-container {
+  font-family: "Lato", sans-serif;
+  color: white;
+  background-color: #b7151b;
+  height: 8%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-container > * {
+  margin: 1.5vh;
+}
