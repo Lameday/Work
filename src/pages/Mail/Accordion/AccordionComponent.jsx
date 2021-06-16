@@ -29,7 +29,8 @@ const useStyles = makeStyles((theme) => ({
 const AccordionComponent = ({
   title = "Default Title",
   subtitle = "Default Subtitle",
-  content = "Default Content"
+  content = "Default Content",
+  handleAdd
 }) => {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
